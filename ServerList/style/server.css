@@ -1,0 +1,122 @@
+/* 
+    Document   : server
+    Created on : Sep 19, 2011, 2:43:02 PM
+    Author     : l2tactics
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+table.server{
+    
+    font-size: 13px;
+    font-family: Arial,Helvetica,sans-serif;
+    text-shadow: #000 1px 1px 1px; 
+    font-weight: bold;
+    border-collapse: collapse;
+    color: #c4d2e0;
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+table.server tr.row{
+    
+    background-color: #4E545B;
+
+
+text-shadow: #000 1px 1px 1px; 
+}
+
+table.server td.topl{
+    background-image: url(../../images/tbl11.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 10px;  
+
+}
+table.server td.topr{
+    background-image: url(../../images/tbl12.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 10px;    
+}
+table.server td.botl{
+    background-image: url(../../images/tbl21.png);
+    background-repeat: no-repeat;
+    height: 15px ;
+    width: 10px;  
+
+}
+table.server td.botr{
+    background-image: url(../../images/tbl22.png);
+    background-repeat: no-repeat;
+    height: 15px ;
+    width: 10px;    
+}
+
+table.server td.hed1{
+    background-image: url(../../images/tbltop.png);
+    background-repeat: repeat-x;
+    height: 32px;
+   
+}
+
+table.server td.bott{
+    background-color: #4E545B;
+   
+}
+table.server td.spc{
+    width: 10px;
+
+}
+
+
+table.server td.col1{
+    width: 110px;   
+    padding-left: 10px;
+    text-indent: 0px;
+
+}
+table.server td.col2{
+    width: 89px;
+
+}
+table.server td.spacer{
+    width: 75px;
+}
+table.server td.col3{
+    width: 87px;   
+
+
+}
+table.server td.col4{
+    width: 230px;
+}
+
+table.server td.srvname{
+    
+    background-image: url(../../images/servername.png);
+    padding-left: 25px;
+    width: 294px;
+    height: 32px ;
+    color: #c4d2e0;
+    text-shadow: #000 1px 1px 1px; 
+    background-repeat: no-repeat;
+    
+}
+table.server td.votes{
+    background-image: url(../../images/votes.png);
+    color: #c4d2e0;
+    text-shadow: #000 1px 1px 1px; 
+    padding-left: 75px;
+    width: 137px;
+    height: 32px;
+    background-repeat: no-repeat;
+}
+

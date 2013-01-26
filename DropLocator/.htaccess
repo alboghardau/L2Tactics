@@ -1,0 +1,11 @@
+#to be written
+
+RewriteEngine on
+RewriteRule ^([^/]*)\.html$ index.php?chron=$1 
+
+
+
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)\.html$ mobsdrop.php?chron=$1&tbl=$2&itemid=$3
+
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ mobitems.php?&chron=$1&mobid=$2
+

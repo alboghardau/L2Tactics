@@ -1,0 +1,13 @@
+#to be written
+
+RewriteEngine on
+
+RewriteRule ^cms/article/([^/]*)/([^/]*)\.html$ article.php?artid=$1
+
+
+RewriteRule ^cms/category/([^/]*)/([^/]*)/([^/]*)\.html$ category.php?cat=$1&page=$2
+
+
+
+
+

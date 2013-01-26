@@ -1,0 +1,8 @@
+
+RewriteEngine On
+
+
+
+RewriteRule ^([^/]*)/([^/]*)\.html$ server.php?srvid=$1 
+
+RewriteRule ^srv/comment/([^/]*)/([^/]*)\.html$ comment.php?id=$1
